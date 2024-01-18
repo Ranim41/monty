@@ -61,5 +61,6 @@ void aseel_nop(stack_t **stack, unsigned int line_number);
 void error_func1(int err, ...);
 void error_func2(int err, ...);
 void string_error(int err, ...);
+void free_node(void);
 
 #endif
